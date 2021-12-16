@@ -1,1 +1,21 @@
-nano /etc/asterisk/sip.conf
+[general]
+context=default
+allowoverlap=no
+bindaddr=0.0.0.0
+srvlookup=yes 
+videosupport=yes
+
+[001]  =====> Bisa kalian ganti dengan nomor apa saja
+type=friend
+context=telepon
+secret=001
+username=client1
+host=dynamic
+disallow=all
+allow=ulaw
+allow=alaw
+allow=h263p
+allow=h264
+allow=pv8
+videosupport=yes
+
