@@ -1,1 +1,8 @@
-nano /etc/asterisk/extensions.conf
+[general]
+static=yes
+writeprotect=no
+clearglobalvars=no
+
+[telepon]
+exten => 001,1,Dial(SIP/001)
+exten => 001,2,HangUp()
