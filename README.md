@@ -9,27 +9,23 @@ Cara menginstal Asterisk di Linux Debian
 <p>$ nano /etc/asterisk/sip.conf</p><br>
 <p><b>KEBAGIAN BARIS PALING BAWAH KEMUDIAN, TAMBAHKAN PERINTAH DIBAWAH INI.</b></p>
 <p>[general]</p>
-<p>context=default</p>
-<p>allowoverlap=no</p>
-<p>bindaddr=0.0.0.0</p>
-<p>srvlookup=yes</p>
-<p>videosupport=yes</p>
-<p>[001]</p>
-<p>type=friend</p>
-<p>context=telepon</p>
-<p>secret=001</p>
-<p>username=client1</p>
-<p>host=dynamic</p>
-<p>disallow=all</p>
-<p>allow=ulaw</p>
-<p>allow=alaw</p>
-<p>allow=h263p</p>
-<p>allow=h264</p>
-<p>allow=pv8</p>
-<p>videosupport=yes</p>
+context=default
+allowoverlap=tidak ada
+bindaddr=0.0.0.0
+srvlookup=yes
+videosupport=yes
 
-
-
-
-
+[001]
+type=teman
+konteks=telepon
+rahasia=001
+username=client1
+host=dynamic
+disallow=all
+allow=ulaw
+allow=alaw
+allow=h263p
+allow=h264
+allow=pv8
+videosupport=yes
 
