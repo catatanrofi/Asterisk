@@ -6,6 +6,6 @@ Cara menginstal Asterisk di Linux Debian
 <p>$ apt-get upgrade -y</p>
 <p>$ apt-get install asterisk</p>
 <h3>Konfigurasi SIP</h3>
-<p>$ nano /etc/asterisk/sip.conf</p><br>
+<p>$ nano /etc/asterisk/sip.conf</p>
 <p>Kebagian Baris Paling Bawah Kemudian, Tambahkan Perintah yang ada di link berikut.</p>
 <p>https://github.com/catatanrofi/Asterisk/blob/main/Konfigurasi%20SIP</p>
