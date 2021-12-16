@@ -16,17 +16,17 @@ Cara menginstal Asterisk di Linux Debian
 <p>videosupport=yes</p>
 <p>[001]</p>
 <p>type=friend</p>
-context=telepon
-secret=001
-username=client1
-host=dynamic
-disallow=all
-allow=ulaw
-allow=alaw
-allow=h263p
-allow=h264
-allow=pv8
-videosupport=yes
+<p>context=telepon</p>
+<p>secret=001</p>
+<p>username=client1</p>
+<p>host=dynamic</p>
+<p>disallow=all</p>
+<p>allow=ulaw</p>
+<p>allow=alaw</p>
+<p>allow=h263p</p>
+<p>allow=h264</p>
+<p>allow=pv8</p>
+<p>videosupport=yes</p>
 
 
 
